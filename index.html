@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shahen - Web Developer Portfolio</title>
+
+
+<!-- Link to CSS -->
+<link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+<body>
+
+<header role="banner" aria-label="Site header">
+  <nav>
+    <a href="#top" class="logo" aria-label="Go to home page">
+      <img src="./images/logo.png" alt="Logo icon with letter SM"/>
+      <span class="logo-text" tabindex="0">SHAHEN</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="site-menu" role="menubar" aria-label="Primary navigation">
+      <li role="none"><a role="menuitem" href="#about" tabindex="0">About</a></li>
+      <li role="none"><a role="menuitem" href="#skills" tabindex="0">Skills</a></li>
+      <li role="none"><a role="menuitem" href="#projects" tabindex="0">Projects</a></li>
+      <li role="none"><a role="menuitem" href="#contact" tabindex="0">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="top" class="hero" aria-label="Introduction and welcome section">
+  <h1 id="typed-text" aria-live="polite"></h1>
+  <p>Passionate about creating responsive and accessible websites that enhance user experience.</p>
+  <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" aria-label="Scroll to contact form">Get in Touch</button>
+</section>
+
+<section id="about" class="container" aria-label="About me section">
+  <h2 class="section-title">About Me</h2>
+  <img src="./images/portrait.jpg" alt="Portrait photo of Shahen" />
+  <p>As a Web Technology Specialist, I combine my design sensibility with technical proficiency to create engaging web experiences. With expertise in front-end development, branding, and digital marketing, I continuously learn and apply the latest web technologies.</p>
+</section>
+
+<section id="skills" class="container" aria-label="Skills section">
+  <h2 class="section-title">My Skills</h2>
+  <ul id="skills-list" role="list">
+    <li tabindex="0">HTML5</li>
+    <li tabindex="0">CSS3</li>
+    <li tabindex="0">JavaScript</li>
+    <li tabindex="0">jQuery</li>
+    <li tabindex="0">WordPress</li>
+    <li tabindex="0">Elementor</li>
+    <li tabindex="0">Beaver Builder</li>
+    <li tabindex="0">e-Commerce</li>
+    <li tabindex="0">Troubleshooting</li>
+    <li tabindex="0">GraphicDesign</li>
+    <li tabindex="0">Photoshop</li>
+    <li tabindex="0">Illustrator</li>
+    <li tabindex="0">SQL</li>
+    <li tabindex="0">C#</li>
+    <li tabindex="0">CorelDRAW</li>
+    <li tabindex="0">Dreamweaver</li>
+    <li tabindex="0">Flash</li>
+    <li tabindex="0">Canva</li>
+    <li tabindex="0">Mailchimp</li>
+    <li tabindex="0">UI/UX</li>
+    <li tabindex="0">ASP.NET</li>
+    <li tabindex="0">Java</li>
+    <li tabindex="0">Branding</li>
+    <li tabindex="0">SEO</li>
+    <li tabindex="0">Office</li>
+  </ul>
+</section>
+
+<section id="projects" class="container" aria-label="Projects section">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-container" role="list">
+    <section class="project-category" tabindex="0" aria-label="Web Design projects" role="listitem">
+      <h3>Web Design</h3>
+      <ul class="project-list">
+        <li><a href="https://github.com/shahen-mus/Web-Design/blob/main/Personal%20Portfolio%20Website" target="_blank" rel="noopener noreferrer">Personal Portfolio Website</a></li>
+        <li><a href="https://github.com/shahen-mus/Web-Design/tree/main/Small%20Business%20Responsive%20Site" target="_blank" rel="noopener noreferrer">Small Business Responsive Site</a></li>
+        <li><a href="https://github.com/shahen-mus/Web-Design/blob/main/My%20Web%20Projects/Images/Projects.txt" target="_blank" rel="noopener noreferrer">Website Projects</a></li>
+      </ul>
+    </section>
+    <section class="project-category" tabindex="0" aria-label="UI and UX Design projects" role="listitem">
+      <h3>UI/UX Design</h3>
+      <ul class="project-list">
+        <li><a href="https://github.com/shahen-mus/UI-UX-Design/tree/main/Mobile%20App%20UI%20Prototype" target="_blank" rel="noopener noreferrer">Mobile App UI Prototype</a></li>
+        <li><a href="https://github.com/shahen-mus/UI-UX-Design/tree/main/Ecommerce%20Dashboard%20UX%20Design" target="_blank" rel="noopener noreferrer">Ecommerce Dashboard UX Design</a></li>
+        <li><a href="https://github.com/shahen-mus/UI-UX-Design/tree/main/Redesigned%20Landing%20Page" target="_blank" rel="noopener noreferrer">Redesigned Landing Page</a></li>
+      </ul>
+    </section>
+    <section class="project-category" tabindex="0" aria-label="App Design JavaScript projects" role="listitem">
+      <h3>App Design</h3>
+      <ul class="project-list">
+        <li><a href="https://github.com/shahen-mus/App-Design/tree/main/Mobile%20Dating%20App" target="_blank" rel="noopener noreferrer">Mobile Dating App</a></li>
+        <li><a href="https://github.com/shahen-mus/App-Design/tree/main/Weather%20Widget%20SPA" target="_blank" rel="noopener noreferrer">Weather Widget SPA</a></li>
+        <li><a href="https://github.com/shahen-mus/App-Design/tree/main/Real-time%20Chat%20App" target="_blank" rel="noopener noreferrer">Real-time Chat App</a></li>
+      </ul>
+    </section>
+  </div>
+</section>
+
+<section id="contact" class="container" aria-label="Contact me section">
+  <div id="contact-card" role="region" aria-labelledby="contact-title" tabindex="0">
+    <h2 id="contact-title">Contact Me</h2>
+    <form id="contact-form" novalidate>
+      <label for="name-input">Name</label>
+      <input type="text" id="name-input" name="name" required aria-required="true" placeholder="Your name" />
+      <label for="email-input">Email</label>
+      <input type="email" id="email-input" name="email" required aria-required="true" placeholder="Your email" />
+      <label for="message-textarea">Message</label>
+      <textarea id="message-textarea" name="message" required aria-required="true" placeholder="Write your message here..."></textarea>
+      <button type="submit" aria-label="Send message">Send</button>
+    </form>
+    <div id="contact-msg" aria-live="polite"></div>
+  </div>
+</section>
+
+<footer aria-label="Site footer">
+  <div class="title-roles">Web Developer ◌ Designer ◌ Digital Marketer</div>
+  <p>© 2024 Shahen Portfolio. All rights reserved. Designed with ♥ passion</p>
+  <p>
+    <a href="https://github.com/shahen-mus" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+      <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.372 0 0 5.373 0 12a12 12 0 0 0 8.208 11.443c.6.11.82-.26.82-.577v-2.234c-3.337.726-4.042-1.61-4.042-1.61-.547-1.393-1.336-1.763-1.336-1.763-1.09-.745.083-.73.083-.73 1.205.086 1.84 1.238 1.84 1.238 1.07 1.834 2.807 1.304 3.492.997.108-.774.418-1.305.76-1.605-2.665-.3-5.466-1.334-5.466-5.932 0-1.31.47-2.38 1.236-3.22-.124-.303-.536-1.52.117-3.167 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3-.405c1.02.005 2.044.138 3 .405 2.29-1.55 3.296-1.23 3.296-1.23.655 1.647.243 2.864.12 3.167.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.628-5.48 5.922.429.37.812 1.1.812 2.22v3.293c0 .32.215.694.824.576A12 12 0 0 0 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      GitHub
+    </a> |
+    <a href="https://www.linkedin.com/in/shahen-m-148182193/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+      <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.983 3.5A2.49 2.49 0 0 0 2.5 6.02a2.5 2.5 0 0 0 5-.001 2.49 2.49 0 0 0-2.517-2.52zM2.5 8.62h5v12.38h-5zM9.352 8.62h4.79v1.63s.696-1.08 2.12-1.08c2.032 0 3.385 1.326 3.385 4.18v7.68h-5v-6.85c0-1.62-.133-2.965-1.804-2.965-1.81 0-2.13 1.44-2.13 2.85v6.96h-5z"/></svg>
+      LinkedIn
+    </a> |
+    <a href="mailto:shahen.mustafa@gmail.com" aria-label="Send email to Shahen">
+      <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+      Email
+    </a>
+  </p>
+</footer>
+
+
+<!-- Link to JavaScript -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
